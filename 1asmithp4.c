@@ -2,12 +2,10 @@
 Program File:   asmithp4.c
 Author:         Ann Smith
 Date:           March 20  2022
-Assignment:     #4
 Objective:      This program will calculate and give output for 5 deposits
                 and 5 withdrawals, as well as the final total. A bank statement
                 has been included.
 ---------------------------------------------------------------------------*/
-
 #include <stdio.h>
 
 int main (void)
@@ -40,10 +38,8 @@ float   deposit[5], withdrawal[5], start_balance, current_balance;
         {
         printf("*** Invalid number of deposits, please re-enter.\n");
 
-
         printf ("Enter the number of deposits (0-5): ");
         scanf ("%i", &number_deposits); //user input
-
         } // end of "while" loop
 
 //prompt user for number of withdrawals
@@ -56,10 +52,8 @@ float   deposit[5], withdrawal[5], start_balance, current_balance;
         {
         printf("Invalid number of withdrawals, please re-enter.\n");
 
-
         printf ("Enter the number of withdrawals (0-5): ");
         scanf ("%i", &number_withdrawals); //user input
-
         } // end of "while" loop
 
 //set current balance if there are no deposits to be made
